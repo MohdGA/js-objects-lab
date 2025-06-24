@@ -46,35 +46,35 @@ game.gyms.forEach((element) => {
 
 
  // Question 7
-// pokemon.forEach((element) => {
-//   game.party.forEach((replace) => {
-//     if(game.party.length === pokemon.length){
-//      game.party.splice(replace + 1,1, element)
-//     }
-//   })
-// })
+pokemon.forEach((element) => {
+  game.party.forEach((replace) => {
+    if(game.party.length === pokemon.length){
+     game.party.splice(replace + 1,1, element)
+    }
+  })
+})
 
 // console.log(game)
 
 
 // Question 8
-// for(let i = 0; i < game.party.length; i++){
-//   console.log(game.party[i].name);
-// };
+for(let i = 0; i < game.party.length; i++){
+  console.log(game.party[i].name);
+};
 
 // Question 9
-// for(let i = 0; i < pokemon.length; i++){
-//   if(pokemon[i].starter === true){
-//     console.dir(pokemon[i].name, { maxArrayLength: null })
-//   }
-// };
+for(let i = 0; i < pokemon.length; i++){
+  if(pokemon[i].starter === true){
+    console.dir(pokemon[i].name, { maxArrayLength: null })
+  }
+};
 
 // Question 10
-// game.catchPokemon = function(pokemonObj){
-//   game.party.push(pokemonObj)
-// };
+game.catchPokemon = function(pokemonObj){
+  game.party.push(pokemonObj)
+};
 
-// game.catchPokemon(pokemon[9]);
+game.catchPokemon(pokemon[9]);
 // console.log(game.party);
 
 
@@ -124,28 +124,28 @@ for(let i = 0; i < pokemon.length; i++){
     };
 };
 // Q6
-// for(let i = 0; i < game.gyms.length; i++){
-//     if(game.gyms[i].difficulty < 3){
-//         game.gyms[i].completed = true;
-//     };
-// };
+for(let i = 0; i < game.gyms.length; i++){
+    if(game.gyms[i].difficulty < 3){
+        game.gyms[i].completed = true;
+    };
+};
 // another way to solve question 6
 game.gyms.forEach((element) => {
     if(element.difficulty < 3){
         element.completed = true;
     };
 });
-// Q7
+// Q7 i didnt understand the question right, ):
 // Q8
-// pokemon.forEach((names) => {
-//     console.dir(names.name, { maxArrayLength: null });
-// })
+pokemon.forEach((names) => {
+    console.dir(names.name, { maxArrayLength: null });
+})
 // Q9
-// for(let i = 0; i < pokemon.length; i++){
-//     if(pokemon[i].starter === true){
-//         console.log(pokemon[i].name);
-//     }
-// };
+for(let i = 0; i < pokemon.length; i++){
+    if(pokemon[i].starter === true){
+        console.log(pokemon[i].name);
+    }
+};
 // another way to solve question 9
 // pokemon.forEach((element) => {
 //     if(element.starter === true){
